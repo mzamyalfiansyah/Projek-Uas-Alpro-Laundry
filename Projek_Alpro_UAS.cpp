@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     vector<string> nama, nomorhp, alamat, tanggal;
     vector<float> beratLaundry;
-    string n, hp, tl, tgl=__DATE__;
+    string n, hp, al, tgl=__DATE__;
     float kg;
     int pil, h;
     const float hargaPerKg = 5000;
@@ -39,8 +39,8 @@ int main() {
             cout << "Nomor Hp           : "; cin >> hp; cin.ignore();
             nomorhp.push_back(hp);
 
-            cout << "Alamat             : "; getline(cin, tl);
-            alamat.push_back(tl);
+            cout << "Alamat             : "; getline(cin, al);
+            alamat.push_back(al);
 
 
             tanggal.push_back(tgl);
